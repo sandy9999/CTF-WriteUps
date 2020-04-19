@@ -1,0 +1,1 @@
+Used this excellent [tool](https://github.com/Luke-Jacobs/Image-Magic) to xor both the images and voila! It is just a single script tool but gave me the correct image which contained the flag in one shot.
