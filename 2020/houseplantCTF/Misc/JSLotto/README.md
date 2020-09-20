@@ -1,0 +1,1 @@
+[Writeup](https://blog.sohamsen.me/posts/breaking-math-random/)

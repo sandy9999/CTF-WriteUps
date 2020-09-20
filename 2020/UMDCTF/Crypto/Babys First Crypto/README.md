@@ -1,7 +1,5 @@
-This was a ROT13 mod 128.
+We were given this ciphertext, `cnRjcHt5b3VyZV92ZXJ5X3dlbGNvbWV9`. Simple Base64 decode.
 
 ```
-text  = open('ciphertext').read()
-for t in text:
-  print(chr((ord(t)-13)%128),end='')
+rtcp{youre_very_welcome}
 ```
