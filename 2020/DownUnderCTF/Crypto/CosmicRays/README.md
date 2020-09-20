@@ -2,7 +2,7 @@ The key is corrupted, but that's just 3 characters. The ciphertext is mostly cor
 
 ![Block Digram](block_diagram.png)
 
-Here's the ugly exploit script.
+So bruteforce the key's 3 corrupted bits and ciphertext last block's 2 corrupted bits. Form the previous blocks of ciphertext using this information. Finally the flag can be found since the first block of ciphertext has not been tampered with. Here's the ugly exploit script.
 
 ```
 from Crypto.Util.Padding import pad
